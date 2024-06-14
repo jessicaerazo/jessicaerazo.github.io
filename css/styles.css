@@ -52,6 +52,21 @@ legend {
     cursor: not-allowed;
 }
 
+.main-container {
+    padding: 20px 0;
+    border: 1px solid red;
+    text-align: center;
+    height: 100vh;
+}
+
+.main-container h1{
+    margin-bottom: 20px;
+}
+
+.main-container h2{
+    margin-bottom: 20px;
+}
+
 #start-section {
     padding: 30px 20px;
 }
