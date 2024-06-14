@@ -34,7 +34,7 @@ function generateStartSection() {
     </header>
     <section role="region">
       <p>Quiz | ${numOfQuestions} questions</p>
-      <p>Section 1, 2, 3, 4, & 5</p>
+      <p>Section 1, 2, 3, 4, 5, 6, 7 & 8</p>
       <p>
         ${content.purposeOfTestTxt}
       </p>

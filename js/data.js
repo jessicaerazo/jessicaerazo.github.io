@@ -925,6 +925,381 @@ const section5 = [
   },
 ];
 
+const section6 = [
+  {
+    text: 'What is the maximum amount of propane that can be transported at one time in an enclosed vehicle?',
+    choices: [
+      { text: '50 pounds', answer: false },
+      { text: '90 pounds aggregate', answer: true },
+      { text: '100 pounds', answer: false },
+      { text: '45 pounds', answer: false },
+    ],
+  },
+  {
+    text: 'Why is it important to transport cylinders in a position where the pressure relief valve is in direct contact with the vapor space?',
+    choices: [
+      { text: 'To allow liquid propane to escape', answer: false },
+      {
+        text: 'To prevent the escape of propane liquid due to pressure changes',
+        answer: true,
+      },
+      { text: 'To ensure the cylinder does not move', answer: false },
+      { text: 'To keep the cylinder cool', answer: false },
+    ],
+  },
+  {
+    text: 'What precautions should be taken if a hissing noise or odor of propane is noticed during transportation?',
+    choices: [
+      { text: 'Continue driving and ignore it', answer: false },
+      {
+        text: 'Remove the cylinder immediately and avoid all sources of ignition',
+        answer: true,
+      },
+      { text: 'Open all windows and continue driving', answer: false },
+      {
+        text: 'Call for roadside assistance while keeping the cylinder in the vehicle',
+        answer: false,
+      },
+    ],
+  },
+  {
+    text: 'Why should containers not be transported inside vehicles where ignition sources are present?',
+    choices: [
+      { text: 'It poses a significant fire hazard', answer: true },
+      { text: 'It is illegal', answer: false },
+      { text: 'It will damage the vehicle', answer: false },
+      { text: 'It is inconvenient', answer: false },
+    ],
+  },
+  {
+    text: 'What steps should be taken to secure and protect propane cylinders during transportation?',
+    choices: [
+      { text: 'Place them loosely in the vehicle', answer: false },
+      {
+        text: 'Securely fasten them and transport with the pressure relief valve in direct contact with the vapor space',
+        answer: true,
+      },
+      { text: 'Transport them horizontally', answer: false },
+      { text: 'Cover them with a blanket', answer: false },
+    ],
+  },
+  {
+    text: 'What should be done if a container is found to be leaking during transportation?',
+    choices: [
+      { text: 'Continue transporting it and report it later', answer: false },
+      {
+        text: 'Immediately remove it and report to authorities or gas supplier',
+        answer: true,
+      },
+      { text: 'Seal the leak with tape and continue', answer: false },
+      { text: 'Place it in a sealed container', answer: false },
+    ],
+  },
+  {
+    text: "Why should smoking be prohibited when transporting propane containers in a vehicle's passenger area?",
+    choices: [
+      { text: 'It is a distraction to the driver', answer: false },
+      { text: 'It presents a fire hazard', answer: true },
+      { text: 'It is unpleasant for passengers', answer: false },
+      { text: 'It is against the law', answer: false },
+    ],
+  },
+  {
+    text: 'Why are consumer warning and shipping labels important when transporting propane cylinders?',
+    choices: [
+      { text: 'They make the cylinders look official', answer: false },
+      {
+        text: 'They communicate important safety information and handling instructions',
+        answer: true,
+      },
+      { text: 'They are required for insurance purposes', answer: false },
+      { text: 'They increase the weight of the cylinder', answer: false },
+    ],
+  },
+  {
+    text: 'What is the largest size propane container that can be transported in an enclosed vehicle?',
+    choices: [
+      { text: '45 lbs propane capacity', answer: true },
+      { text: '50 lbs propane capacity', answer: false },
+      { text: '90 lbs propane capacity', answer: false },
+      { text: '100 lbs propane capacity', answer: false },
+    ],
+  },
+  {
+    text: 'What is the largest amount of propane that can be transported in an enclosed vehicle at one time?',
+    choices: [
+      { text: '50 pounds', answer: false },
+      { text: '90 pounds aggregate', answer: true },
+      { text: '100 pounds', answer: false },
+      { text: '45 pounds', answer: false },
+    ],
+  },
+  {
+    text: 'It’s a hot July day, and you just finished loading a filled container into the trunk of a car. Your customer tells you that he is headed to a nearby mall to shop for several hours before heading home. What should you do?',
+    choices: [
+      {
+        text: 'Advise the customer to keep the vehicle cool and well-ventilated, park in a shaded area, and remove the container as soon as possible',
+        answer: true,
+      },
+      {
+        text: 'Tell the customer it is fine to leave the container in the car',
+        answer: false,
+      },
+      {
+        text: 'Instruct the customer to turn on the air conditioning and leave the car running',
+        answer: false,
+      },
+      {
+        text: 'Recommend the customer to leave the windows open slightly',
+        answer: false,
+      },
+    ],
+  },
+];
+
+const section7 = [
+  {
+    text: 'Why is good housekeeping important around a propane dispensing unit?',
+    choices: [
+      { text: 'To make the area look nice', answer: false },
+      {
+        text: 'To prevent combustible materials from accumulating within 10 feet of the container',
+        answer: true,
+      },
+      { text: 'To save on cleaning costs', answer: false },
+      { text: 'To attract more customers', answer: false },
+    ],
+  },
+  {
+    text: 'What are the indicators of a propane leak at a dispensing unit?',
+    choices: [
+      { text: 'An oily residue around fittings', answer: true },
+      { text: 'A hissing sound', answer: true },
+      { text: 'A smell of propane when the cabinet is opened', answer: true },
+      { text: 'All of the above', answer: true },
+    ],
+  },
+  {
+    text: 'How often should a dispenser be checked for leaks, and what should be used for detection?',
+    choices: [
+      { text: 'Annually, using water', answer: false },
+      {
+        text: 'Monthly, using a leak detector solution recommended by the gas supplier',
+        answer: true,
+      },
+      { text: 'Weekly, using ammonia-containing solutions', answer: false },
+      { text: 'Daily, using soap and water', answer: false },
+    ],
+  },
+  {
+    text: 'What are the requirements for fire extinguishers at propane dispensing units?',
+    choices: [
+      {
+        text: 'A minimum of 18 lb. dry chemical with an A-B-C rating, fully charged, located within 50 feet of the dispensing unit, and inspected annually',
+        answer: true,
+      },
+      {
+        text: 'Any size, located anywhere on the premises, and inspected bi-annually',
+        answer: false,
+      },
+      {
+        text: 'A minimum of 10 lb. dry chemical with an A-B-C rating, located within 100 feet, and inspected monthly',
+        answer: false,
+      },
+      {
+        text: 'A minimum of 20 lb. dry chemical with a B-C rating, fully charged, located within 30 feet of the dispensing unit, and inspected annually',
+        answer: false,
+      },
+    ],
+  },
+  {
+    text: 'Why are signs important at propane dispensing units?',
+    choices: [
+      { text: 'They look professional', answer: false },
+      {
+        text: 'They provide necessary safety information and alert individuals of potential hazards',
+        answer: true,
+      },
+      { text: 'They attract customers', answer: false },
+      { text: 'They are required by law', answer: false },
+    ],
+  },
+  {
+    text: 'What equipment is required by NFPA 58 for emergency shut off at dispensing units?',
+    choices: [
+      { text: 'An emergency water sprinkler system', answer: false },
+      {
+        text: 'An identified and accessible remote emergency shut off valve located between 3 feet and 100 feet from the liquid transfer point, and an emergency electrical shut off switch located between 20 feet and 100 feet from the dispensing device(s)',
+        answer: true,
+      },
+      { text: 'A remote control system for all operations', answer: false },
+      { text: 'A fire alarm system', answer: false },
+    ],
+  },
+  {
+    text: 'Why should dispensing unit operators regularly inspect remote shut off valves and switches?',
+    choices: [
+      {
+        text: 'To ensure they are operational and accessible during emergencies',
+        answer: true,
+      },
+      { text: 'To keep them clean', answer: false },
+      { text: 'To make sure they are visible', answer: false },
+      { text: 'To check if they need replacement', answer: false },
+    ],
+  },
+  {
+    text: 'What should be included in a dispensing unit operator checklist?',
+    choices: [
+      {
+        text: 'Ensuring the area is free of flammable materials and weeds, checking for leaks, verifying fire extinguishers, confirming proper signage, inspecting hoses and fittings, ensuring supplies are stocked, and posting emergency contact numbers',
+        answer: true,
+      },
+      {
+        text: 'Checking the weather forecast, cleaning the windows, and ensuring all employees are wearing uniforms',
+        answer: false,
+      },
+      {
+        text: 'Verifying the stock of propane, inspecting the cash register, and checking the internet connection',
+        answer: false,
+      },
+      {
+        text: 'Checking employee schedules, monitoring customer traffic, and reviewing sales reports',
+        answer: false,
+      },
+    ],
+  },
+];
+
+const section8 = [
+  {
+    text: 'What precaution should be taken to protect against the rapid expansion of liquid propane?',
+    choices: [
+      {
+        text: 'Wear proper clothing, including gloves, safety glasses or goggles, and foot protection',
+        answer: true,
+      },
+      { text: 'Stand far away from the propane container', answer: false },
+      { text: 'Keep the propane container in a shaded area', answer: false },
+      { text: 'Use a fan to disperse the propane', answer: false },
+    ],
+  },
+  {
+    text: 'Describe the flammability range of propane and its implications during handling.',
+    choices: [
+      {
+        text: 'Propane has a narrow flammability range of 2.15% to 9.60% in air, and sources of ignition should be avoided within this range',
+        answer: true,
+      },
+      {
+        text: 'Propane can burn at any concentration in air, so handling must always be cautious',
+        answer: false,
+      },
+      {
+        text: 'Propane is only flammable when mixed with air at concentrations above 10%',
+        answer: false,
+      },
+      {
+        text: 'Propane cannot ignite unless exposed to an open flame',
+        answer: false,
+      },
+    ],
+  },
+  {
+    text: 'Why is it crucial to approach a propane leak with the wind at your back?',
+    choices: [
+      {
+        text: 'To avoid walking into a potentially flammable vapor cloud',
+        answer: true,
+      },
+      { text: 'To prevent the wind from blowing propane away', answer: false },
+      { text: 'To ensure you can hear the leak better', answer: false },
+      { text: 'To prevent propane from entering your eyes', answer: false },
+    ],
+  },
+  {
+    text: 'What are the potential health effects of inhaling propane vapor?',
+    choices: [
+      {
+        text: 'Dizziness, loss of coordination, unconsciousness, or even death depending on the concentration and duration of exposure',
+        answer: true,
+      },
+      { text: 'Mild headaches and nausea', answer: false },
+      { text: 'Temporary blindness and skin rashes', answer: false },
+      { text: 'None, propane vapor is completely harmless', answer: false },
+    ],
+  },
+  {
+    text: 'What actions should be taken if a propane fire occurs?',
+    choices: [
+      {
+        text: 'Immediately shut off the flow of gas by closing all valves and use a BC fire extinguisher from upwind to control small fires',
+        answer: true,
+      },
+      { text: 'Try to extinguish the fire with water', answer: false },
+      { text: 'Run away from the fire as fast as possible', answer: false },
+      { text: 'Cover the fire with a blanket', answer: false },
+    ],
+  },
+  {
+    text: 'What fire safety equipment is required by Florida law at LP gas dispensing units?',
+    choices: [
+      {
+        text: 'An 18 lb. ABC fire extinguisher and large quantities of water or water spray',
+        answer: true,
+      },
+      { text: 'A fire hose and a bucket of sand', answer: false },
+      {
+        text: 'A 10 lb. ABC fire extinguisher and a fire alarm',
+        answer: false,
+      },
+      { text: 'A CO2 fire extinguisher and a fire blanket', answer: false },
+    ],
+  },
+  {
+    text: 'How does the ignition temperature of propane compare to common sources of ignition?',
+    choices: [
+      {
+        text: 'Propane ignites at temperatures between approximately 920°F to 1120°F, which is lower than many common ignition sources like cigarettes and light switches',
+        answer: true,
+      },
+      {
+        text: 'Propane ignites at much higher temperatures than common sources of ignition',
+        answer: false,
+      },
+      {
+        text: 'Propane can only ignite at temperatures above 2000°F',
+        answer: false,
+      },
+      {
+        text: 'Propane cannot be ignited by common household items',
+        answer: false,
+      },
+    ],
+  },
+  {
+    text: 'Why should the fire never be extinguished until the gas flow has been turned off?',
+    choices: [
+      {
+        text: 'Extinguishing the fire before shutting off the gas can lead to a greater fire hazard or explosion if the fuel supply remains uninterrupted',
+        answer: true,
+      },
+      {
+        text: 'Turning off the gas does not matter as long as the fire is put out quickly',
+        answer: false,
+      },
+      {
+        text: 'The fire should be extinguished immediately regardless of gas flow',
+        answer: false,
+      },
+      {
+        text: 'Only professionals should handle extinguishing the fire',
+        answer: false,
+      },
+    ],
+  },
+];
+
 // Merge all collections into one
 const allSectionQuestions = [
   ...section1,
@@ -932,6 +1307,9 @@ const allSectionQuestions = [
   ...section3,
   ...section4,
   ...section5,
+  ...section6,
+  ...section7,
+  ...section8,
 ];
 
 const numOfQuestions = Object.keys(allSectionQuestions).length;
